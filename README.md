@@ -1,125 +1,136 @@
-# AtherAI: Revolutionizing Educational Content Creation
+# AtherAI: AI-Powered Educational Animation Platform
 
-## 🚀 Project Overview
+## Project Overview
 
-AtherAI is an innovative AI-powered platform that transforms text descriptions into professional animations instantly, making educational content creation accessible to everyone - no animation experience required!
+AtherAI is an AI-powered platform that transforms text descriptions into professional animations, making educational content creation more accessible and efficient.
 
-## 🌟 Key Features
+## System Requirements
 
-- 🔹 Natural language to animation conversion
-- 🔹 Real-time voice-commanded editing
-- 🔹 One-click export to multiple formats
-- 🔹 Smart templates for common concepts
-- 🔹 Seamless website embedding
+- Python 3.8+
+- Node.js 18+
+- pip
+- npm or yarn
 
-## 🎯 Problem Statement
+## Project Structure
 
-In today's digital age, creating engaging visual explanations is challenging:
-- 65% of people are visual learners
-- Educators spend countless hours creating visual content
-- High barriers to entry for content creators
-- Inconsistent quality in educational materials
+```
+atherai/
+│
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── src/
+│
+├── frontend/
+│   ├── src/
+│   │   └── app.jsx
+│   ├── package.json
+│   └── vite.config.js
+```
 
-## 💡 How AtherAI Works
+## Setup and Installation
 
-1. **Natural Language Input Processing**
-   - Users provide text or voice commands
-   - AI understands animation requirements
-   - Automatic scene and object relationship detection
+### Backend Setup
 
-2. **Smart Asset Generation**
-   - Intelligent asset matching and generation
-   - Dynamic color scheme and style coordination
+1. Navigate to the backend directory
+   ```bash
+   cd backend
+   ```
 
-3. **Animation Synthesis**
-   - Real-time conversion of commands to animations
-   - Automated motion path generation
-   - Smart transitions between elements
+2. Create a virtual environment
+   ```bash
+   python -m venv venv
+   ```
 
-4. **Interactive Editing**
-   - Real-time preview and adjustments
-   - Voice-commanded editing
-   - AI-suggested improvements
+3. Activate the virtual environment
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
 
-## 🛠️ Technology Stack
+4. Install Python dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Run the backend server
+   ```bash
+   python main.py
+   ```
+
+### Frontend Setup
+
+1. In a new terminal, navigate to the frontend directory
+   ```bash
+   cd frontend
+   ```
+
+2. Install npm dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the frontend development server
+   ```bash
+   npm run dev
+   ```
+
+## Running the Application
+
+1. First, start the backend server (step 5 in Backend Setup)
+2. Then, start the frontend development server (step 3 in Frontend Setup)
+3. Open a web browser and navigate to the local development URL (typically http://localhost:3000)
+
+## Technology Stack
 
 ### Frontend
-- React 18+ with TypeScript
+- React 18+
+- TypeScript
 - Next.js 14+
 - Tailwind CSS
-- Framer Motion
-- Three.js
-- SVG.js
+- Vite
 
-### AI/ML Infrastructure
-- GPT-4 API
-- IBM Granite Model
+### Backend
+- FastAPI (Python)
+- GraphQL
 - PyTorch
 - TensorFlow
 
-### Backend
-- FastAPI
-- GraphQL
-- Auth0
-- Docker
-- Kubernetes
+### AI Infrastructure
+- GPT-4 API
+- IBM Granite Model
 
-## 🎓 Target Audience
+## Deployment
 
-- Educators and Content Creators
-- Learning Management Systems (LMS)
-- Corporate Training Platforms
-- Educational Technology Companies
+- Containerized with Docker
+- Kubernetes for orchestration
+- Supports cloud and self-hosted deployments
 
-## 🌐 Deployment Strategy
 
-- Cloud-Native Architecture
-- Dockerized Microservices
-- Kubernetes Scaling
-- One-click Cloud Deployment
-- Enterprise-Ready
+## Troubleshooting
 
-## 📈 Market Advantage
+- Ensure all dependencies are correctly installed
+- Check that backend server is running before starting frontend
+- Verify Python and Node.js versions meet minimum requirements
+- Check network ports are not blocked
 
-- First-mover in AI-powered educational animations
-- No animation expertise required
-- Enterprise-grade security
-- Highly scalable solution
+## Contributing
 
-## 🚀 Getting Started
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
 
-### Prerequisites
-- Node.js 18+
-- Docker
-- Kubernetes (for scaling)
+## License
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/AtherAI.git
-
-# Install dependencies
-cd AtherAI
-npm install
-
-# Run development server
-npm run dev
+[Specify License Type - e.g., MIT, Apache 2.0]
 ```
 
+The updated README provides a more technical, straightforward guide for setting up the project. It emphasizes the specific steps to run the backend (`main.py`) and frontend (`app.jsx`), and includes clear instructions for installation, setup, and running the application.
 
-## 🤝 Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 🌟 Vision
-
-"AtherAI is redefining how knowledge is visualized, making education more accessible, engaging, and efficient."
-
----
-
-**Join us in shaping the future of AI-driven learning!** 🚀
+Would you like me to modify anything further?
