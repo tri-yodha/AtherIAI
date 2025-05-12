@@ -128,9 +128,7 @@ atherai/
 
 ## License
 
-[Specify License Type - e.g., MIT, Apache 2.0]
+License - MIT
 ```
 
-The updated README provides a more technical, straightforward guide for setting up the project. It emphasizes the specific steps to run the backend (`main.py`) and frontend (`app.jsx`), and includes clear instructions for installation, setup, and running the application.
 
-Would you like me to modify anything further?
